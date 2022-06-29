@@ -42,27 +42,27 @@
 	// More info: http://git.blivesta.com/animsition/
 	// ===============================================
 
-	$(".animsition").animsition({
-		inClass: 'fade-in',
-		outClass: 'fade-out',
-		inDuration: 800,
-		outDuration: 500,
-		// linkElement:   '.animsition-link',
-		linkElement: 'a:not([target="_blank"]):not([href^="#"]):not([class*="lg-trigger"])', // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-		loading: true,
-		loadingParentElement: 'html', //animsition wrapper element
-		loadingClass: 'animsition-loading',
-		loadingInner: '', // e.g '<img src="assets/img/loading.svg" />'
-		timeout: true,
-		timeoutCountdown: 4000,
-		onLoadEvent: true,
-		browser: ['animation-duration', '-webkit-animation-duration', '-o-animation-duration'], // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+	// $(".animsition").animsition({
+	// 	inClass: 'fade-in',
+	// 	outClass: 'fade-out',
+	// 	inDuration: 800,
+	// 	outDuration: 500,
+	// 	// linkElement:   '.animsition-link',
+	// 	linkElement: 'a:not([target="_blank"]):not([href^="#"]):not([class*="lg-trigger"])', // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+	// 	loading: true,
+	// 	loadingParentElement: 'html', //animsition wrapper element
+	// 	loadingClass: 'animsition-loading',
+	// 	loadingInner: '', // e.g '<img src="assets/img/loading.svg" />'
+	// 	timeout: true,
+	// 	timeoutCountdown: 4000,
+	// 	onLoadEvent: true,
+	// 	browser: ['animation-duration', '-webkit-animation-duration', '-o-animation-duration'], // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
 		
-		overlay : false,
-		overlayClass : 'animsition-overlay-slide',
-		overlayParentElement : 'html',
-		transition: function(url){ window.location.href = url; }
-	});
+	// 	overlay : false,
+	// 	overlayClass : 'animsition-overlay-slide',
+	// 	overlayParentElement : 'html',
+	// 	transition: function(url){ window.location.href = url; }
+	// });
 
 
 
