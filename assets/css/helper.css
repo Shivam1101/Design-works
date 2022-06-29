@@ -149,10 +149,12 @@
 
 /* font alternate 1 */
 .font-alter-1 { 
-	font-family: 'Galada', cursive;
+	font-family: 'Inter', sans-serif;
 	font-weight: normal !important;
 	text-transform: none !important;
 	letter-spacing: 0 !important;
+	font-weight: 800 !important;
+	font-size: 30px !important;
 }
 .h1.font-alter-1, h1.font-alter-1 { font-size: 42px !important; }
 .h2.font-alter-1, h2.font-alter-1 { font-size: 36px !important; }
